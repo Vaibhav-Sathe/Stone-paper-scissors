@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+* {
+      padding: 0;
+      margin: 0;
+}
+
+html,
+body {
+      background: #ccc;
+      text-align: center;
+      font-family: "roboto", sans-serif;
+}
+
+h1 {
+      height: 5rem;
+      background: #473144;
+      line-height: 5rem;
+      color: #fff;
+}
+
+img {
+      height: 150px;
+      width: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+}
+
+.choice {
+      height: 165px;
+      width: 165px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+}
+
+.choices {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      margin-top: 5rem;
+
+}
+
+.choice:hover {
+      cursor: pointer;
+      background: #473144;
+      border-radius: 50%;
+      object-fit: cover;
+}
+
+.score-board {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      gap: 5rem;
+      font-size: 2rem;
+}
+
+#your-score,
+#comp-score {
+      font-size: 4rem;
+}
+
+#msg-container {
+      margin-top: 5rem;
+}
+
+#msg {
+      background-color: #473144;
+      color: #fff;
+      padding: 1rem;
+      font-size: 1.2rem;
+      border-radius: 1rem;
+      display: inline;
+      justify-content: center;
+      align-items: center;
+}
